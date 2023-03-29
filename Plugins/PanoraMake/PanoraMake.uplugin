@@ -1,0 +1,49 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.0",
+	"FriendlyName": "PANORA|make",
+	"Description": "Complete & Accessible AAA-Grade Landscape Texturing",
+	"Category": "Other",
+	"CreatedBy": "Sylvain L.",
+	"CreatedByURL": "https://www.linkedin.com/notifications/",
+	"DocsURL": "https://sylvl.gitbook.io/panoramake-release/",
+	"MarketplaceURL": "https://www.artstation.com/sylvainlebeau/store",
+	"SupportURL": "mailto:sylvl.pro@outlook.fr",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "PanoraMake",
+			"Type": "Editor",
+			"LoadingPhase": "PreLoadingScreen",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Mac",
+				"Linux"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "BlueprintMaterialTextureNodes",
+			"Enabled": true
+		},
+		{
+			"Name": "PythonAutomationTest",
+			"Enabled": true
+		},
+		{
+			"Name": "VirtualHeightfieldMesh",
+			"Enabled": true
+		}
+	]
+}
